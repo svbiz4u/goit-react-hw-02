@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #6996f7;
+    text-transform: capitalize;
+    border-radius: 10px;
+    transition: all 300ms ease;
+    color: white;
+    &:hover {
+      background-color: #2350af;
+    }
+  }
+  
+  .reset {
+    background-color: #f17d8a;
+    &:hover {
+      background-color: #d90429;
+    }
+  }
